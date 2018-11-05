@@ -11,7 +11,7 @@ public class TestCase
 		var list = new ArrayList<Path>();
 		try (var stream = Files.newDirectoryStream(path))
 		{
-			stream.forEach(((list::add));
+			stream.forEach((list::add);
 		}
 	}
 }
